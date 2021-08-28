@@ -1,0 +1,31 @@
+guest_list = ['dileep', 'sri', 'asif']
+print(guest_list)
+guest_list.insert(0, 'pandu')
+guest_list.insert(2, 'prasad')
+guest_list.append('srinu')
+guest_list.sort()
+print(guest_list)
+removed_guest = guest_list.pop(0)
+message = f"sorry {removed_guest} for sudden change in plan."
+print(message)
+print(guest_list)
+removed_guest = guest_list.pop(3)
+message = f"sorry {removed_guest} for sudden change in plan."
+print(message)
+removed_guest = guest_list.pop(3)
+message = f"sorry {removed_guest} for sudden change in plan."
+print(message)
+print(guest_list)
+removed_guest = guest_list.pop(2)
+message = f"sorry {removed_guest} for sudden change in plan."
+print(message)
+print(guest_list)
+message = f"hai {guest_list[0]} you are still invited to the lunch."
+print(message)
+message = f"hai {guest_list[1]} you are still invited to the lunch."
+print(message)
+print(guest_list)
+del guest_list[0]
+del guest_list[0]
+print(guest_list)
+
