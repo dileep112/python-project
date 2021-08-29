@@ -28,5 +28,5 @@ print(guest_list)
 del guest_list[0]
 del guest_list[0]
 print(guest_list)
-message = "thank you for the code"
-print(message)
+#message = "thank you for the code"
+#print(message)
