@@ -15,6 +15,3 @@ print(a*b)
 
 x,y,z = 1,2,3
 print(x*y*z)
-
-# New line added for testing
-# for practice
